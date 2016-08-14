@@ -14,6 +14,10 @@ sudo pip install mitmproxy
 mitmproxy -s "proxy2fs.py cacheDir/"
 ```
 
+# Note
+
+This will only work with HTTPS if the web browser is set to ignore the HTTPS errors.
+
 # Credits
 
 Author: Wes Turner
