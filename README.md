@@ -9,11 +9,15 @@ sudo apt-get install libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev
 sudo pip install mitmproxy
 ```
 
-# Usage
+# Start it up
 ```
 mitmproxy -s "proxy2fs.py cacheDir/"
 ```
 
+# Connect to it with PhantomJS
+```
+phantomjs --ignore-ssl-errors=yes --proxy=localhost:8080 "rasterize.js" "https://www.google.com"
+```
 # Note
 
 This will only work with HTTPS if the web browser is set to ignore the HTTPS errors.
