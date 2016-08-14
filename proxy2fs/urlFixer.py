@@ -1,10 +1,11 @@
 """
 Resolves relative url paths to absolute paths
 ---
-You're on "http://www.asite.com/folder/currentpage.html"
-There's a link to "../scripts/jquery.js"
-This script turns that into "http://www.asite.com/scripts/jquery.js"
-Next, it returns a path relative to document root, like "/scripts/jquery.js"
+Example:
+Input 1: "http://www.asite.com/folder/currentpage.html"
+Input 2: "../scripts/jquery.js"
+Output: "http://www.asite.com/scripts/jquery.js"
+Output, parsed: "/scripts/jquery.js"
 """
 
 try:
