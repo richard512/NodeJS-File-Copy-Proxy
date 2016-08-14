@@ -1,5 +1,7 @@
 """
 
+Resolves relative url paths to absolute paths
+---
 You're on "http://www.asite.com/folder/currentpage.html"
 There's a link to "../scripts/jquery.js"
 This script turns that into "http://www.asite.com/scripts/jquery.js"
