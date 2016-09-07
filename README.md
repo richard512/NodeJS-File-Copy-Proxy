@@ -24,6 +24,6 @@ This will only work with HTTPS if the web browser is set to ignore the HTTPS err
 
 # Credits
 
-Author: Wes Turner
+Based on the work of Wes Turner on proxy2fs
 
 License: MIT License
