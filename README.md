@@ -1,4 +1,4 @@
-# proxy2fs
+# NodeJS File Copy Proxy
 Makes a static local cache of all web resources which flow through mitmproxy.
 
 # Ubuntu mitmproxy Install
